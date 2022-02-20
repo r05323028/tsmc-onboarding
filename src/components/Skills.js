@@ -23,7 +23,7 @@ const Tools = (props) => {
       <ListItem>Frameworks</ListItem>
       <FlexBox alignItems={"flex-start"}>
         <UnorderedList fontSize={fontSize}>
-          <ListItem>Frontend: react, vue (basic)</ListItem>
+          <ListItem>Frontend: react, react native, vue (basic)</ListItem>
           <ListItem>Batch: apache spark</ListItem>
           <ListItem>Search: elasticsearch</ListItem>
           <ListItem>API: fastAPI / flask</ListItem>

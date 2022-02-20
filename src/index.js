@@ -20,12 +20,15 @@ import {
   FullScreen,
   Progress,
   Deck,
+  Heading,
+  Slide,
   Box,
 } from "spectacle";
 
 import Cover from "./components/Cover";
 import SelfIntro from "./components/SelfIntro";
 import Skills from "./components/Skills";
+import Experiences from "./components/Experiences";
 
 // SPECTACLE_CLI_THEME_START
 const theme = {
@@ -59,6 +62,12 @@ const Presentation = () => (
     <Cover />
     <SelfIntro />
     <Skills />
+    <Experiences />
+    <Slide>
+      <FlexBox height="100%">
+      <Heading>Thank you for yor time!</Heading>
+      </FlexBox>
+    </Slide>
   </Deck>
 );
 
