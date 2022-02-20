@@ -25,6 +25,7 @@ import {
 
 import Cover from "./components/Cover";
 import SelfIntro from "./components/SelfIntro";
+import Skills from "./components/Skills";
 
 // SPECTACLE_CLI_THEME_START
 const theme = {
@@ -57,6 +58,7 @@ const Presentation = () => (
   <Deck theme={theme} template={template}>
     <Cover />
     <SelfIntro />
+    <Skills />
   </Deck>
 );
 

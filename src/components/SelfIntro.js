@@ -23,7 +23,7 @@ const SelfIntro = (props) => {
       <Slide>
         <Heading>Who Am I ?</Heading>
         <UnorderedList fontSize={fontSize}>
-          <ListItem>Sean Chang</ListItem>
+          <ListItem>Sean Chang (張詠翔)</ListItem>
           <ListItem>Experiences</ListItem>
           <UnorderedList fontSize={fontSize}>
             <ListItem>KKLab - Sr. Data Scientist</ListItem>
