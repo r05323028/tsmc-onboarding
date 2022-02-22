@@ -62,6 +62,14 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif|jpeg)$/,
         use: [require.resolve('file-loader')]
+      },
+      {
+        test: /\.css$/,
+        use: [require.resolve('style-loader'), require.resolve('css-loader')]
+      },
+      {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [require.resolve('file-loader')]
       }
     ]
   },
