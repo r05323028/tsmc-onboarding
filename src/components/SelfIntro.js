@@ -15,6 +15,7 @@
 import React from "react";
 
 import { Slide, Heading, UnorderedList, ListItem, FlexBox, Image } from "spectacle";
+import Selfie from "../assets/img/photo.jpg"
 
 const Items = (props) => {
   const { fontSize } = props;
@@ -39,7 +40,7 @@ const Items = (props) => {
 
 const Photo = (props) => {
   return (<>
-  <Image maxWidth="300px" src="./src/assets/img/photo.jpg" />
+  <Image maxWidth="300px" src={Selfie} />
   </>)
 }
 

@@ -13,11 +13,12 @@
 // limitations under the License.
 import React from "react";
 import { Slide, Heading, FlexBox, Text } from "spectacle";
+import Background from '../assets/img/background.jpeg'
 
 const Cover = (props) => {
   return (
     <>
-      <Slide backgroundImage="url(./src/assets/img/background.jpeg)"backgroundOpacity={0.8}>
+      <Slide backgroundImage={'url(' + Background + ')'} backgroundOpacity={0.8}>
         <FlexBox height="100%" flexDirection="column">
           <Heading>TSMC Onboarding</Heading>
           <FlexBox flexDirection={"column"}>
