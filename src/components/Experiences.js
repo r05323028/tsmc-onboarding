@@ -35,7 +35,7 @@ const Projects = (props) => {
             Text-to-speech Human Labeling Tool (React.js + FastAPI + MySQL)
           </Link>
         </ListItem>
-        <ListItem><Link href="https://patentsearch.kklab.com/" target="_blank" fontSize={fontSize}>Patent Search (FastAPI + ELK Stack + SQLAlchemy ORM + MySQL + Spacy + Argo Workflows + AWS SQS + Apache Spark)</Link></ListItem>
+        <ListItem><Link href="https://patentsearch.kklab.com/" target="_blank" fontSize={fontSize}>Patent Search (FastAPI + ELK Stack + SQLAlchemy ORM + MySQL + SpaCy + Argo Workflows + AWS SQS + Apache Spark)</Link></ListItem>
       </UnorderedList>
     </>
   );
