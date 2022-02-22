@@ -20,7 +20,10 @@ const Cover = (props) => {
       <Slide>
         <FlexBox height="100%" flexDirection="column">
           <Heading>TSMC Onboarding</Heading>
-          <Text>Sean Chang</Text>
+          <FlexBox flexDirection={"column"}>
+            <Text margin='0.1em'>Sean Chang</Text>
+            <Text margin='0.1em'>{new Date().toDateString()}</Text>
+          </FlexBox>
         </FlexBox>
       </Slide>
     </>

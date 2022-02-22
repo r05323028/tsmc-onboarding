@@ -14,7 +14,34 @@
 
 import React from "react";
 
-import { Slide, Heading, UnorderedList, ListItem } from "spectacle";
+import { Slide, Heading, UnorderedList, ListItem, FlexBox, Image } from "spectacle";
+
+const Items = (props) => {
+  const { fontSize } = props;
+  return (
+    <>
+      <UnorderedList fontSize={fontSize}>
+        <ListItem>Sean Chang (張詠翔)</ListItem>
+        <ListItem>Experiences</ListItem>
+        <UnorderedList fontSize={fontSize}>
+          <ListItem>KKLab - Sr. Data Scientist</ListItem>
+          <ListItem>KKBOX - Data Scientist</ListItem>
+        </UnorderedList>
+        <ListItem>Education</ListItem>
+        <UnorderedList fontSize={fontSize}>
+          <ListItem>NTU - Master of Economics</ListItem>
+        </UnorderedList>
+        <ListItem>Interests: #photography, #car, #game, #stock</ListItem>
+      </UnorderedList>
+    </>
+  );
+};
+
+const Photo = (props) => {
+  return (<>
+  <Image maxWidth="300px" src="./src/assets/img/photo.jpg" />
+  </>)
+}
 
 const SelfIntro = (props) => {
   const fontSize = 30;
@@ -22,19 +49,14 @@ const SelfIntro = (props) => {
     <>
       <Slide>
         <Heading>Who Am I ?</Heading>
-        <UnorderedList fontSize={fontSize}>
-          <ListItem>Sean Chang (張詠翔)</ListItem>
-          <ListItem>Experiences</ListItem>
-          <UnorderedList fontSize={fontSize}>
-            <ListItem>KKLab - Sr. Data Scientist</ListItem>
-            <ListItem>KKBOX - Data Scientist</ListItem>
-          </UnorderedList>
-          <ListItem>Education</ListItem>
-          <UnorderedList fontSize={fontSize}>
-            <ListItem>NTU - Master of Economics</ListItem>
-          </UnorderedList>
-          <ListItem>Interests: #photography, #car, #game, #stock</ListItem>
-        </UnorderedList>
+        <FlexBox>
+          <FlexBox flexGrow={2}>
+            <Items fontSize={fontSize} />
+          </FlexBox>
+          <FlexBox flexGrow={1}>
+            <Photo />
+          </FlexBox>
+        </FlexBox>
       </Slide>
     </>
   );
