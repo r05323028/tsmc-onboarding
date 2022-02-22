@@ -57,6 +57,7 @@ const Cover = (props) => {
           <Heading>TSMC Onboarding</Heading>
           <FlexBox flexDirection={"column"}>
             <Text margin="0.1em">Sean Chang</Text>
+            <Text margin="0.1em">新技術應用部</Text>
             <Text margin="0.1em">{new Date().toDateString()}</Text>
           </FlexBox>
         </FlexBox>
