@@ -17,7 +17,7 @@ import { Slide, Heading, FlexBox, Text } from "spectacle";
 const Cover = (props) => {
   return (
     <>
-      <Slide>
+      <Slide backgroundImage="url(./src/assets/img/background.jpeg)"backgroundOpacity={0.8}>
         <FlexBox height="100%" flexDirection="column">
           <Heading>TSMC Onboarding</Heading>
           <FlexBox flexDirection={"column"}>
