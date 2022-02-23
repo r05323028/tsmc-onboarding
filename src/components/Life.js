@@ -27,6 +27,8 @@ import Img2 from "../assets/img/gallery/2.jpeg";
 import Img3 from "../assets/img/gallery/3.jpeg";
 import Img4 from "../assets/img/gallery/4.jpeg";
 import Img5 from "../assets/img/gallery/5.jpeg";
+import Img6 from "../assets/img/gallery/6.jpeg";
+import Img7 from "../assets/img/gallery/7.jpeg";
 
 const gallery = [
   {
@@ -52,6 +54,16 @@ const gallery = [
   {
     src: Img5,
     html: "比賽首獎",
+    height: 200,
+  },
+  {
+    src: Img6,
+    html: "PUBG",
+    height: 200,
+  },
+  {
+    src: Img7,
+    html: "TWDS Sharing",
     height: 200,
   },
 ];
