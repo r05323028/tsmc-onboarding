@@ -29,42 +29,101 @@ import Img4 from "../assets/img/gallery/4.jpeg";
 import Img5 from "../assets/img/gallery/5.jpeg";
 import Img6 from "../assets/img/gallery/6.jpeg";
 import Img7 from "../assets/img/gallery/7.jpeg";
+import Img8 from "../assets/img/gallery/8.jpeg";
+import Img9 from "../assets/img/gallery/9.jpeg";
+import Img10 from "../assets/img/gallery/10.jpeg";
+import Img11 from "../assets/img/gallery/11.jpeg";
+import Img12 from "../assets/img/gallery/12.jpeg";
+import Img13 from "../assets/img/gallery/13.jpeg";
+import Img14 from "../assets/img/gallery/14.png";
+
+const height = 150
+const width = undefined
 
 const gallery = [
   {
     src: Img1,
     html: "武嶺",
-    height: 200,
+    height: height,
+    width: width,
   },
   {
     src: Img2,
     html: "長城",
-    height: 200,
+    height: height,
+    width: width,
   },
   {
     src: Img3,
     html: "KKMeet",
-    height: 200,
+    height: height,
+    width: width,
   },
   {
     src: Img4,
     html: "Julia & Kimberley",
-    height: 200,
+    height: height,
+    width: width,
   },
   {
     src: Img5,
     html: "比賽首獎",
-    height: 200,
+    height: height,
+    width: width,
   },
   {
     src: Img6,
     html: "PUBG",
-    height: 200,
+    height: height,
+    width: width,
   },
   {
     src: Img7,
     html: "TWDS Sharing",
-    height: 200,
+    height: height,
+    width: width,
+  },
+  {
+    src: Img8,
+    html: "阿爾宙斯",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img9,
+    html: "首爾車站",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img10,
+    html: "蘭桂芳",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img11,
+    html: "KKMeet 網頁",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img12,
+    html: "黑客松第三名",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img13,
+    html: "KKBOX 輿情分析平台",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img14,
+    html: "Eyes - 台灣輿情分析平台",
+    height: height,
+    width: width,
   },
 ];
 

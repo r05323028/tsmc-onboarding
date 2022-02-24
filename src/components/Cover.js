@@ -54,11 +54,12 @@ const Cover = (props) => {
             height={200}
             mouseMoveForce={motionForce}
           />
-          <Heading>TSMC Onboarding</Heading>
+          <Heading margin="0.5px">TSMC Onboarding</Heading>
           <FlexBox flexDirection={"column"}>
-            <Text margin="0.1em">Sean Chang</Text>
-            <Text margin="0.1em">新技術應用部</Text>
-            <Text margin="0.1em">{new Date().toDateString()}</Text>
+            <Text margin="0px">Sean Chang</Text>
+            <Text margin="0px">張詠翔</Text>
+            <Text margin="0px">新技術應用部</Text>
+            <Text margin="0px">{new Date().toDateString()}</Text>
           </FlexBox>
         </FlexBox>
       </Slide>

@@ -25,7 +25,7 @@ const Projects = (props) => {
         <ListItem>
           Public Opinion Mining System (React.js + Flask + MySQL)
         </ListItem>
-        <ListItem>KKMeet (Inhouse Hackathon)(React Native + Flask + MySQL)</ListItem>
+        <ListItem>KKMeet (Inhouse Hackathon - 3rd Place)(React Native + Flask + MySQL)</ListItem>
         <ListItem>
           <Link
             fontSize={fontSize}

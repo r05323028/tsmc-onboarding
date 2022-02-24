@@ -63,8 +63,8 @@ const Presentation = () => (
   <Deck theme={theme} template={template}>
     <Cover />
     <SelfIntro />
-    <Skills />
     <Experiences />
+    <Skills />
     <Life />
     <Slide>
       <FlexBox height="100%" flexDirection={"column"}>

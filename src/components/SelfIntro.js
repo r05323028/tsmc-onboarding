@@ -32,7 +32,7 @@ const Items = (props) => {
         <UnorderedList fontSize={fontSize}>
           <ListItem>NTU - Master of Economics</ListItem>
         </UnorderedList>
-        <ListItem>Interests: #photography, #car, #game, #stock</ListItem>
+        <ListItem>Interests: #photography, #car, #game, #stock, #travel, #coding</ListItem>
       </UnorderedList>
     </>
   );
