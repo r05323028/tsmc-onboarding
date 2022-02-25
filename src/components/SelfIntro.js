@@ -23,6 +23,7 @@ const Items = (props) => {
     <>
       <UnorderedList fontSize={fontSize}>
         <ListItem>Sean Chang (張詠翔)</ListItem>
+        <ListItem>Xindian, New Taipei City</ListItem>
         <ListItem>Experiences</ListItem>
         <UnorderedList fontSize={fontSize}>
           <ListItem>KKLab - Sr. Data Scientist</ListItem>

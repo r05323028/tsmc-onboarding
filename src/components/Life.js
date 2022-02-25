@@ -36,6 +36,8 @@ import Img11 from "../assets/img/gallery/11.jpeg";
 import Img12 from "../assets/img/gallery/12.jpeg";
 import Img13 from "../assets/img/gallery/13.jpeg";
 import Img14 from "../assets/img/gallery/14.png";
+import Img15 from "../assets/img/gallery/15.jpeg";
+import Img16 from "../assets/img/gallery/16.jpeg";
 
 const height = 150
 const width = undefined
@@ -122,6 +124,18 @@ const gallery = [
   {
     src: Img14,
     html: "Eyes - 台灣輿情分析平台",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img15,
+    html: "辰拉麵",
+    height: height,
+    width: width,
+  },
+  {
+    src: Img16,
+    html: "武陵農場",
     height: height,
     width: width,
   },
