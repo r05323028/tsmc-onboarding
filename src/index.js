@@ -42,7 +42,7 @@ const theme = {
 // SPECTACLE_CLI_THEME_END
 
 // SPECTACLE_CLI_TEMPLATE_START
-const template = () => (
+const template = ({slideNumber, numberOfSlides}) => (
   <FlexBox
     justifyContent="space-between"
     position="absolute"
@@ -73,6 +73,9 @@ const Presentation = () => (
         </FlexBox>
         <FlexBox>
           <Text>Thank you for yor time!</Text>
+        </FlexBox>
+        <FlexBox>
+          <Text>Built by <b>Spectacle.js</b> + <b>React.js</b></Text>
         </FlexBox>
       </FlexBox>
     </Slide>
