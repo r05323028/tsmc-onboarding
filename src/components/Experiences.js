@@ -23,19 +23,19 @@ const Projects = (props) => {
       <ListItem>Projects (KKBOX/KKLab)</ListItem>
       <UnorderedList fontSize={fontSize}>
         <ListItem>
-          Public Opinion Mining System (React.js + Flask + MySQL)
+          Public Opinion Mining System
         </ListItem>
-        <ListItem>KKMeet (Inhouse Hackathon - 3rd Place)(React Native + Flask + MySQL)</ListItem>
+        <ListItem>KKMeet (Inhouse Hackathon - 3rd Place)</ListItem>
         <ListItem>
           <Link
             fontSize={fontSize}
             href={"https://recorder.custom-voice.cradle.kklab.com"}
             target="_blank"
           >
-            Text-to-speech Human Labeling Tool (React.js + FastAPI + MySQL)
+            Text-to-speech Human Labeling Tool
           </Link>
         </ListItem>
-        <ListItem><Link href="https://patentsearch.kklab.com/" target="_blank" fontSize={fontSize}>Patent Search (FastAPI + ELK Stack + SQLAlchemy ORM + MySQL + SpaCy + Argo Workflows + AWS SQS + Apache Spark)</Link></ListItem>
+        <ListItem><Link href="https://patentsearch.kklab.com/" target="_blank" fontSize={fontSize}>Patent Search</Link></ListItem>
       </UnorderedList>
     </>
   );
@@ -56,7 +56,7 @@ const SideProjects = (props) => {
   return (<>
     <ListItem>Side Projects</ListItem>
     <UnorderedList fontSize={fontSize}>
-      <ListItem><Link fontSize={fontSize} href="https://github.com/r05323028/eyes" target="_blank">Eyes (React.js + GraphQL + FastAPI + MySQL + Argo Workflows + Celery)</Link></ListItem>
+      <ListItem><Link fontSize={fontSize} href="https://github.com/r05323028/eyes" target="_blank">Eyes - Taiwanese Public Opinion Mining System</Link></ListItem>
     </UnorderedList>
   </>)
 };
