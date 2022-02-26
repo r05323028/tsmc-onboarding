@@ -14,7 +14,9 @@
 
 import React from "react";
 
-import { UnorderedList, ListItem, Heading, Slide, FlexBox } from "spectacle";
+import { UnorderedList, ListItem, Heading, Slide, FlexBox, Image } from "spectacle";
+
+import SkillsImg from '../assets/img/skills.png'
 
 const Tools = (props) => {
   const { fontSize } = props;
@@ -64,8 +66,8 @@ const Skills = (props) => {
     <>
       <Slide>
         <Heading>Skills</Heading>
-        <FlexBox>
-          <UnorderedList fontSize={fontSize}>
+        <FlexBox height="65%">
+          {/* <UnorderedList fontSize={fontSize}>
             <ListItem>
               Languanges: python, javascript, golang (basic), scala (basic)
             </ListItem>
@@ -77,7 +79,8 @@ const Skills = (props) => {
               <ML fontSize={fontSize} />
               </FlexBox>
             </FlexBox>
-          </UnorderedList>
+          </UnorderedList> */}
+          <Image src={SkillsImg} />
         </FlexBox>
       </Slide>
     </>
